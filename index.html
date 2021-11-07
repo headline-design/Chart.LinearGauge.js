@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <link rel="icon" href="favicon.ico" />
+  <link rel="stylesheet" type="text/css" href="App.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#000000" />
+  <meta name="description" content="Bias Barometer" />
+  <link rel="apple-touch-icon" href="logo192.png" />
+  <title>Bias Barometer</title>
+</head>
+
+<body>
+ 
+  <noscript>You need to enable JavaScript to run this app.</noscript>
+  <div id="root" align="center">
+    <main>
+      <div class="the-main">
+        <header class="pb-3 mb-4 border-bottom">
+          <a href="/" class="d-flex align-items-center text-dark text-decoration-none">
+            <svg id="Layer_1" class="me-2" data-name="Layer 1" width="50px" xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 27.54868 26">
+              <path style="fill: currentColor;\: #000;"
+                d="M694.32869,371.02323H671.67137a2.2093,2.2093,0,0,0-2.44571,1.81065v22.3322a2.20938,2.20938,0,0,0,2.44565,1.81071h22.65744a2.20939,2.20939,0,0,0,2.44559-1.81078V372.83394A2.20938,2.20938,0,0,0,694.32869,371.02323Z"
+                transform="translate(-669.22566 -371)"></path>
+              <path style="/* fill: var(--base-inverted); */"
+                d="M692.05386,391.16014H673.96829a.19632.19632,0,0,0-.19623.1962v1.66275a.19632.19632,0,0,0,.19623.1962H692.0538a.19631.19631,0,0,0,.19623-.1962v-1.66275a.19633.19633,0,0,0-.19623-.1962Zm.179-3.93344a.196.196,0,0,0-.18079-.11984H688.5112a.18565.18565,0,0,1-.14655-.31192l.15528-.17853.1109-.13629-.01276.00143.05127-.063.1435-.1885.13733-.19321.19128-.29373.17706-.30332.16248-.31243.1474-.32108.13189-.32932.11585-.337.0993-.34421.08234-.351.06421-.35385.04657-.35962.02856-.365.01007-.36969h.00946a7.19245,7.19245,0,0,0-.14672-1.44876,7.11646,7.11646,0,0,0-.178-.68924l-.24286-.661-.10846-.24265-.11719-.23782-.12549-.23288-.13372-.22766-.23731-.36457-.2583-.349-.27832-.33258-.29755-.31521-.51245-.46488-.55542-.41473-.59466-.361-.63031-.3035-.6623-.24234q-.34075-.106-.69067-.17761a7.19121,7.19121,0,0,0-.71533-.10926,7.2913,7.2913,0,0,0-.73639-.0372l-.389.01059-.38354.03113-.37769.051-.37146.07-.00043-.00216-.07.015-.06958.01654-.0694.01718-.06915.01767-.25275.0701-.24872.07865-.24481.08737-.24048.09619-.00586.00247-.004.00156-.004.00152-.004.00165-.63031.3035-.59467.361-.55542.4147-.51245.46488-.46588.51144-.41565.55429-.36169.59345-.30414.629-.24286.661a7.13138,7.13138,0,0,0-.28742,1.40313l-.03729.73487h.00946v.0036l-.00012.0036-.00012.0036v.0036l.00958.37338.02844.36856.04688.3631.06488.35727.08233.351.09931.3442.11584.337.13184.32931.1474.32108.16247.31244.17707.30331.19128.29373.13733.19321.14349.18851.14942.18356.15527.17853a.19227.19227,0,0,1,.04865.104.19647.19647,0,0,1-.016.10617.19867.19867,0,0,1-.069.08265.19391.19391,0,0,1-.11017.03329H673.9462a.19606.19606,0,0,0-.19623.19586v1.663a.1942.1942,0,0,0,.01544.07635.196.196,0,0,0,.18079.11984h3.99408l2.60644.00144.01264-.00443,1.20886-.00143-.08991-.00009.10627-.00012V389.163a.20226.20226,0,0,0,.171-.2034v-1.7464a.20683.20683,0,0,0-.103-.18027l-.008-.00689a.21721.21721,0,0,0-.07135-.02674h0a4.4929,4.4929,0,0,1-1.49438-.57473,5.01279,5.01279,0,0,1-1.261-1.086,5.144,5.144,0,0,1-.87127-1.50632,5.27244,5.27244,0,0,1-.3252-1.836l.00012-.00534.00019-.00534.00018-.00534.00012-.00534h.0083q0-.24133.0224-.48184.02206-.23616.066-.46939.0434-.23127.1073-.455.06336-.22257.14655-.43875l.00946-.02414.00946-.02417.00958-.024.00976-.02392.00794-.01923.008-.01913.008-.01911.00812-.01913a5.18843,5.18843,0,0,1,5.28259-3.102q.25517.02568.50671.07669.24775.05017.48957.12445.23886.07342.46991.16949a5.21267,5.21267,0,0,1,2.28772,1.87284,5.12524,5.12524,0,0,1,.88934,2.89084h.00867a5.27246,5.27246,0,0,1-.327,1.83346,5.14713,5.14713,0,0,1-.87146,1.50415,5.00945,5.00945,0,0,1-1.26025,1.08432,4.4941,4.4941,0,0,1-1.493.574l-.00434.00082-.00433.00083-.00433.00082-.00434.00082a.19544.19544,0,0,0-.16046.191.20391.20391,0,0,0-.00452.03382V388.96a.20216.20216,0,0,0,.1709.2034v.00842l.10626.00012h-.0899l1.20886.00143.01264.00443,2.60644-.00143h3.99408a.19595.19595,0,0,0,.19617-.1962v-1.677a.19544.19544,0,0,0-.01538-.07636Z"
+                transform="translate(-669.22566 -371)" fill="#fff"></path>
+            </svg>
+            <h1 class="header">Libra Network</h1>
+          </a>
+          <ul class="navbar-nav flex-row flex-wrap ms-md-auto">
+
+            <li class="nav-item col-6 col-md-auto">
+              <a class="nav-link p-2" href="https://twitter.com/headline_crypto" target="_blank" rel="noopener">
+                <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36"
+                  class="navbar-nav-svg d-inline-block align-text-top" viewBox="0 0 512 416.32" role="img">
+                  <title>Twitter</title>
+                  <path fill="#495057"
+                    d="M160.83 416.32c193.2 0 298.92-160.22 298.92-298.92 0-4.51 0-9-.2-13.52A214 214 0 0 0 512 49.38a212.93 212.93 0 0 1-60.44 16.6 105.7 105.7 0 0 0 46.3-58.19 209 209 0 0 1-66.79 25.37 105.09 105.09 0 0 0-181.73 71.91 116.12 116.12 0 0 0 2.66 24c-87.28-4.3-164.73-46.3-216.56-109.82A105.48 105.48 0 0 0 68 159.6a106.27 106.27 0 0 1-47.53-13.11v1.43a105.28 105.28 0 0 0 84.21 103.06 105.67 105.67 0 0 1-47.33 1.84 105.06 105.06 0 0 0 98.14 72.94A210.72 210.72 0 0 1 25 370.84a202.17 202.17 0 0 1-25-1.43 298.85 298.85 0 0 0 160.83 46.92">
+                  </path>
+                </svg>
+
+              </a>
+            </li>
+            <li class="nav-item col-6 col-md-auto">
+              <a class="nav-link p-2" href="https://github.com/headline-design" target="_blank" rel="noopener">
+                <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36"
+                  class="navbar-nav-svg d-inline-block align-text-top" viewBox="0 0 512 499.36" role="img">
+                  <title>GitHub</title>
+                  <path fill="#495057" fill-rule="evenodd"
+                    d="M256 0C114.64 0 0 114.61 0 256c0 113.09 73.34 209 175.08 242.9 12.8 2.35 17.47-5.56 17.47-12.34 0-6.08-.22-22.18-.35-43.54-71.2 15.49-86.2-34.34-86.2-34.34-11.64-29.57-28.42-37.45-28.42-37.45-23.27-15.84 1.73-15.55 1.73-15.55 25.69 1.81 39.21 26.38 39.21 26.38 22.84 39.12 59.92 27.82 74.5 21.27 2.33-16.54 8.94-27.82 16.25-34.22-56.84-6.43-116.6-28.43-116.6-126.49 0-27.95 10-50.8 26.35-68.69-2.63-6.48-11.42-32.5 2.51-67.75 0 0 21.49-6.88 70.4 26.24a242.65 242.65 0 0 1 128.18 0c48.87-33.13 70.33-26.24 70.33-26.24 14 35.25 5.18 61.27 2.55 67.75 16.41 17.9 26.31 40.75 26.31 68.69 0 98.35-59.85 120-116.88 126.32 9.19 7.9 17.38 23.53 17.38 47.41 0 34.22-.31 61.83-.31 70.23 0 6.85 4.61 14.81 17.6 12.31C438.72 464.97 512 369.08 512 256.02 512 114.62 397.37 0 256 0z">
+                  </path>
+                </svg>
+
+              </a>
+            </li>
+          </ul>
+        </header>
+        <img class="" src="libra-hero.png" alt="Summer Collection">
+        <div class="container-fluid py-5">
+          <h1 class="display-5 fw-bold">Bias Barometer</h1>
+          <p class="col-md-8 fs-4">Bias Barometer is an algorithm for detecting right/left bias in texts. At its heart
+            is a hybrid (symbolic and numeric) neural network with a self- assembling typology of inputs and synapses
+            and is trained based on the principles of associative Hebbian learning.</p>
+          <button class="btn btn-primary btn-lg" type="button">Example button</button>
+        </div>
+        <div class="container py-4">
+          <div class="App">
+            <div class="bd-content ps-lg-4">
+              <div class="bd-example bd-example-row">
+                <div class="container">
+                  <div class="col">
+
+                  </div>
+                  <div class="row">
+                    <div class="col-3">
+                      <p class="live-25">Live Search »</p>
+                    </div>
+                    <div class="col">
+                      <div class="col-2">
+                        <input type="text" id="url" size="100%" value="https://apnews.com" onchange="onChange()">
+                      </div><button class="Input__SearchSlash-sc-1utkal6-3 Nfhyi">🌐</button>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col">
+                      <canvas id="my-canvas" height="100px" width="350px"></canvas><br></br>
+                      <div class="col">
+                        <h3 id="bias">Bias:</h3>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <h2>Cumulative Error</h2>
+              <canvas id="graph" width="200px" height="200px"></canvas>
+              <h2>Average Accuracy:</h2><h2 id="accuracy"></h2>
+              <div class="bd-example bd-example-row">
+                <div class="modal-footer flex-nowrap p-0">
+                  <button onclick="learn(false)" type="button"
+                    class="btn btn-lg btn-link fs-6 text-decoration-none col-6 m-0 rounded-0 border-right left">Bad
+                      Bot</button>
+                  <button onclick="learn(true)" type="button"
+                    class="btn btn-lg btn-link fs-6 text-decoration-none col-6 m-0 rounded-0 right"
+                    data-bs-dismiss="modal">Good Bot</button>
+                </div>
+              </div>
+              <div class="bd-example bd-example-row data">
+                <div class="container">
+                  <div class="row">
+                    <div class="col">
+                      <p id="neurons">Neurons:</p>
+                    </div>
+                    <div class="col">
+                      <p id="fcount">Firing Count:</p>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col">
+                      <p id="right">Right:</p>
+                    </div>
+                    <div class="col">
+                      <p id="left">Left:</p>
+                    </div>
+                    <div class="col">
+                      <p id="bias-2">Bias:</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="bd-example bd-example-row">
+                <div class="TitleCardList__Table-sc-10oh3h-0 FWTFF pages__StyledCardList-sc-179z7qu-32 bhECtU">
+                  <div class="TitleCardList__TableHeader-sc-10oh3h-1 gEUSWx"><svg stroke="currentColor"
+                      fill="currentColor" stroke-width="0" viewBox="0 0 512 512"
+                      class="Icon__StyledIcon-sc-1o8zi5s-0 TitleCardList__StyledIcon-sc-10oh3h-2 vJgQg jVsXKT"
+                      height="24" width="24" xmlns="http://www.w3.org/2000/svg">
+                      <path fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="32"
+                        d="M160 368L32 256l128-112m192 224l128-112-128-112"></path>
+                    </svg>Command Panel<div class="TitleCardList__CodeBoxHeader-sc-10oh3h-13 dsigOQ">♎<div
+                        class="TitleCardList__Red-sc-10oh3h-10 gWcTLd"></div>
+                      <div class="TitleCardList__Yellow-sc-10oh3h-11 dqGGXk"></div>
+                      <div class="TitleCardList__Green-sc-10oh3h-12 kaaiIZ"></div>
+                    </div>
+                  </div>
+                  <div class="container">
+                    <div class="row">
+                      <div onclick="popup();" class="col button btn-lg btn-info">
+                        <p>Activate CORS</p>
+                      </div>
+                      <div class="col button btn-lg btn-info" onclick="window.location.reload();">
+                        <p class="">Reload Page</p>
+                      </div>
+                    </div>
+
+                    <div class="row">
+                      <div id="dataset-btn" onclick="showHistory()" class="col button btn-lg btn-info">
+                        <p class="">Show Training History</p>
+                      </div>
+                      <div id="details" onclick="show()" class="col button btn-lg btn-info">
+                        <p>Show Details</p>
+                      </div>
+                    </div>
+                    <div class="row">
+
+                      <div id="inspect" onclick="inspect()" class="col button btn-lg btn-info">
+                        <p>Inspect Neural Net</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            <div id="neuron-table" align="center"></div>
+            </div>
+          </div>
+
+          <div id="dataset-base" style="display:none">dataset base</div>
+  
+         
+          <div class="bd-example bd-example-row">
+            <div class="">
+              <div class="container">
+                <div class="row">
+                  
+
+                </div>
+
+
+                <div class="row">
+
+                  <script>
+                    function popup(url) {
+                      newwindow = window.open("https://cors-anywhere.herokuapp.com", 'page', 'height=500,width=400');
+                    }
+                  </script>
+                   
+                  <div id="detail-div" style="display: none">
+                    <h3>Major Right Triggers</h3>
+                    <p id="rightTriggers">
+                    </p>
+                    <h3>Major Left Triggers</h3>
+                    <p id="leftTriggers">
+                    </p>
+                    <table style="width:100%">
+                      <tr>
+                        <th>Website</th>
+                        <th>Raw Text</th>
+                      </tr>
+                      <tr>
+                        <td style="vertical-align: top"><iframe id="frame" width="100%" height="600"></iframe></td>
+                        <td style="max-width: 500px">
+                          <p id="data"></p>
+                        </td>
+                      </tr>
+                    </table>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <footer class="pt-3 mt-4 text-muted border-top">
+              Copyright © 2021 HEADLINE INC
+            </footer>
+          </div>
+        </div>
+        
+    </main>
+    <script src="https://www.gstatic.com/firebasejs/5.9.0/firebase.js"></script>
+    <script>
+      // Initialize Firebase
+      // TODO: Replace with your project's customized code snippet
+      const config = {
+        apiKey: "AIzaSyDcxjfGDvuubIgJuHdFCtHRRBdtn8JbEi8",
+        authDomain: "bias-barometer.firebaseapp.com",
+        databaseURL: "https://bias-barometer-default-rtdb.firebaseio.com",
+        projectId: "bias-barometer",
+        storageBucket: "bias-barometer.appspot.com",
+        messagingSenderId: "814549035098",
+        appId: "1:814549035098:web:44e2f068da289bb3839063",
+        measurementId: "G-JLZ9JFV5JC"
+      };
+      firebase.initializeApp(config);
+    </script>
+    <!--<script src='https://cdn.plot.ly/plotly-2.4.2.min.js'></script> -->
+    <script src="jsHtmlToText.js"></script>
+    <script src="App.js"></script>
+</body>
+
+</html>
